@@ -29,6 +29,14 @@ body {
     box-shadow: 4px 4px 13px #bbbbbb;
 }
 
+.grey{
+    background-color: #727272;
+}
+
+.black{
+  background-color: #000;
+}
+
 .RPI {
   padding: 10px;
 }
@@ -62,7 +70,6 @@ a:hover {
 
 .circle {
   padding: 35px 0px 36px 0px;
-  background-color: #727272;
   color: #FFF;
   border-radius: 175px;
   font-weight: 500;
@@ -83,14 +90,26 @@ a:hover {
 }
 
 .blocktext {
-  padding: 5px;
+  padding: 8px;
   background-color: rgba(182,182,182, .7);
   box-shadow: 4px 4px 13px #bbbbbb;
 }
 
-.deepred {
-  margin-top: 18px;
+.blocktextblack {
   padding: 8px;
+  background-color: rgba(0,0,0, .7);
+  box-shadow: 4px 4px 13px #bbbbbb;
+}
+
+.deepred {
   background-color: #D32F2F;
   box-shadow: 4px 4px 13px #bbbbbb;
+}
+
+.space {
+  margin-top: 15px;
+}
+
+.pad {
+  padding: 8px;
 }
