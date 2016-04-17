@@ -69,9 +69,9 @@ a:hover {
 }
 
 .circle {
-  padding: 35px 0px 36px 0px;
+  padding: 40px 0px 36px 0px;
   color: #FFF;
-  border-radius: 175px;
+  border-radius: 180px;
   font-weight: 500;
   box-shadow: 4px 4px 13px #bbbbbb;
 }
@@ -87,6 +87,15 @@ a:hover {
   -ms-transform: rotate(-10deg); /* IE 9 */
   -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
   transform: rotate(-10deg);
+}
+
+.rotate90 {
+  display: inline;
+  float: right;
+  padding: 135px 70px 30px 70px;
+  -ms-transform: rotate(-90deg); /* IE 9 */
+  -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
 }
 
 .blocktext {
@@ -112,4 +121,34 @@ a:hover {
 
 .pad {
   padding: 8px;
+}
+
+.news {
+  padding: 8px;
+  text-align: center;
+  box-shadow: 4px 4px 13px #bbbbbb;
+}
+
+.news:hover {
+  background-color: #727272;
+}
+
+.bodydiv {
+  margin: 25px 0px 0px 0px;
+}
+
+.send-yourself-copy {
+  float: right;
+}
+
+.signup {
+  padding: 20px;
+}
+
+.blacktext {
+  color: #000;
+}
+
+.topred {
+  border-top: solid 5px #F44336;
 }

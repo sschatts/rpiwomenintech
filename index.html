@@ -8,9 +8,9 @@
     <link href='https://fonts.googleapis.com/css?family=League+Script' rel='stylesheet' type='text/css'/>
   </head>
   <body>
-    <div class="navbar">
+    <!-- <div class="navbar">
       <span><a href="index.html">Home</a></span>
-    </div> <!--navbar-->
+    </div> <!navbar-->
     <div class="heading row">
       <div class="three columns">
         <h3 class="red white RPI">RPI Women in Technology</h3>
@@ -61,12 +61,42 @@
             <li>Strengthen Community</li>
           </ol>
         </div>
-        <div class="space circle black">
-            <p class="rotate"> SIGN UP FOR NEWSLETTER</p>
+        <div class="space black">
+            <p class="white news"> SIGN UP FOR NEWSLETTER</p>
         </div> <!--circle-->
+        <img class="grouppic" src="resources/images/group2.jpg" alt="Group Photo" height=100% width=100%>
       </div><!--last two columns-->
-    </div> <!--row-->
-
+      </div> <!--row-->
+      <div class="heading row space">
+        <div class="two columns black topred">
+          <h5 class="white heading rotate90">Sign Up For Our Newsletter</h5>
+        </div>
+        <div class="ten columns topred">
+          <form class="blocktextblack white signup">
+            <div class="row">
+              <div class="six columns">
+                <label for="exampleEmailInput blacktext">Your email</label>
+                <input class="u-full-width" type="email" placeholder="example@gmail.com">
+              </div>
+              <div class="six columns">
+                <label for="exampleRecipientInput">Interested In</label>
+                <select class="u-full-width blacktext" id="exampleRecipientInput">
+                  <option value="Option 1">Sponsoring</option>
+                  <option value="Option 2">Staying Updated</option>
+                  <option value="Option 3">Learning More</option>
+                </select>
+              </div>
+            </div>
+            <label for="exampleMessage blacktext">Message</label>
+            <textarea class="u-full-width" placeholder="I wanted to learn more about.." id="exampleMessage"></textarea>
+            <label class="send-yourself-copy">
+              <input type="checkbox">
+              <span class="label-body">Send a copy to yourself</span>
+            </label>
+            <input class="button-primary" type="submit" value="Submit">
+          </form>
+        </div> <!--eleven columns-->
+      </div><!--row-->
 
   </body>
 </html>
