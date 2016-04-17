@@ -11,22 +11,32 @@
     <!-- <div class="navbar">
       <span><a href="index.html">Home</a></span>
     </div> <!navbar-->
-    <div class="heading row">
+    <div class="heading space row">
       <div class="three columns">
         <h3 class="red white RPI">RPI Women in Technology</h3>
         <img class="grouppic" src="resources/images/group_photo.jpg" alt="Group Photo" height=100% width=100%>
+        <div class="space blocktext pad">
+          <h5>Why Sponsor Us?</h5>
+          <ol>
+            <li>Exposure at conference</li>
+            <li>Access to current students</li>
+            <li>Strengthen Community</li>
+            <li>Create a stronger relationship</li>
+          </ol>
+        </div>
       </div> <!--heading-->
       <div class="two columns">
         <div class="circle grey">
-            <p class="rotate"> HELP US ATTEND GRACE HOPPER</p>
+            <a href="index.html#helpusattend"><p class="rotate"> HELP US ATTEND GRACE HOPPER</p></a>
         </div> <!--circle-->
-        <div class="space pad deepred white">
+        <div class="largespace pad deepred white">
           <h5>Why Is GHC Important?</h5>
           <ol>
             <li>Exposure to the industry</li>
             <li>Network with Professionals</li>
             <li>Build the Community</li>
             <li>Be Inspired</li>
+            <li>Learn from Others</li>
           </ol>
         </div>
       </div>
@@ -53,21 +63,19 @@
 
       </div><!--right three columns-->
       <div class="three columns">
-        <div class="red white pad">
-          <h5>Why Sponsor Us?</h5>
-          <ol>
-            <li>Exposure at conference</li>
-            <li>Access to current students</li>
-            <li>Strengthen Community</li>
-          </ol>
-        </div>
+        <img class="grouppic" src="resources/images/two.jpg" alt="Group Photo" height=100% width=100%>
         <div class="space black">
-            <p class="white news"> SIGN UP FOR NEWSLETTER</p>
+            <a href="index.html#signupnewsletter"><p class="white news"> SIGN UP FOR NEWSLETTER</p></a>
         </div> <!--circle-->
         <img class="grouppic" src="resources/images/group2.jpg" alt="Group Photo" height=100% width=100%>
+        <div class="white deepred space pad">
+          <span>"GHC gave me the opportunity to talk with CTO's of many large
+            companies and I landed my first internship"</span>
+        </div> <!--white deepred-->
       </div><!--last two columns-->
       </div> <!--row-->
-      <div class="heading row space">
+
+      <div class="heading row largespace" id="signupnewsletter">
         <div class="two columns black topred">
           <h5 class="white heading rotate90">Sign Up For Our Newsletter</h5>
         </div>
@@ -75,10 +83,14 @@
           <form class="blocktextblack white signup">
             <div class="row">
               <div class="six columns">
+                <label for="exampleEmailInput blacktext">Your First Name</label>
+                <input class="u-full-width" type="email" placeholder="First Name">
                 <label for="exampleEmailInput blacktext">Your email</label>
                 <input class="u-full-width" type="email" placeholder="example@gmail.com">
               </div>
               <div class="six columns">
+                <label for="blacktext">Your Last Name</label>
+                <input class="u-full-width" type="email" placeholder="Last Name">
                 <label for="exampleRecipientInput">Interested In</label>
                 <select class="u-full-width blacktext" id="exampleRecipientInput">
                   <option value="Option 1">Sponsoring</option>
@@ -97,6 +109,12 @@
           </form>
         </div> <!--eleven columns-->
       </div><!--row-->
+
+      <div class="heading row largespace" id="helpusattend">
+        <div class="eleven columns">
+          <img class="redback" src="resources/images/timeline.png" alt="Timeline" height=100% width=100%>
+        </div>
+      </div>
 
   </body>
 </html>

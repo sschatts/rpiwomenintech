@@ -47,14 +47,6 @@ h1 {
 
 a {
 	text-decoration: none;
-	color: #FFF;
-  margin: 2px;
-}
-
-a:hover {
-  background-color: rgba(0,0,0,.2);
-  color: #FFF;
-  margin: 2px;
 }
 
 .white {
@@ -92,7 +84,7 @@ a:hover {
 .rotate90 {
   display: inline;
   float: right;
-  padding: 135px 70px 30px 70px;
+  padding: 130px 10px 120px 10px;
   -ms-transform: rotate(-90deg); /* IE 9 */
   -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
   transform: rotate(-90deg);
@@ -119,8 +111,12 @@ a:hover {
   margin-top: 15px;
 }
 
+.largespace {
+  margin-top: 25px;
+}
+
 .pad {
-  padding: 8px;
+  padding: 8px 8px 7px 8px;
 }
 
 .news {
@@ -150,5 +146,12 @@ a:hover {
 }
 
 .topred {
-  border-top: solid 5px #F44336;
+  border-top: solid 7px #F44336;
+}
+
+.redback {
+  padding: 45px;
+  background-color: rgba(0,0,0, .5);
+  box-shadow: 4px 4px 13px #bbbbbb;
+  margin-bottom: 20px;
 }
