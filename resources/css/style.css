@@ -1,0 +1,96 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+html {
+  font-family: "Quicksand", georgia, times, serif;
+}
+
+body {
+  background-image: url('../images/background.png');
+  background-repeat: repeat;
+  background-size: 24px 24px;
+  padding: 0
+}
+.navbar {
+  background-color: #D32F2F;
+  color: #FFF;
+  padding: 0;
+  shadow:
+}
+
+.heading {
+  padding: 20px 0px 0px 15px;
+}
+
+.red{
+    background-color: #F44336;
+    box-shadow: 4px 4px 13px #bbbbbb;
+}
+
+.RPI {
+  padding: 10px;
+}
+
+h1 {
+  color: #FFF;
+}
+
+a {
+	text-decoration: none;
+	color: #FFF;
+  margin: 2px;
+}
+
+a:hover {
+  background-color: rgba(0,0,0,.2);
+  color: #FFF;
+  margin: 2px;
+}
+
+.white {
+  color: #FFF;
+}
+
+.grouppic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 4px 4px 13px #bbbbbb;
+}
+
+.circle {
+  padding: 35px 0px 36px 0px;
+  background-color: #727272;
+  color: #FFF;
+  border-radius: 175px;
+  font-weight: 500;
+  box-shadow: 4px 4px 13px #bbbbbb;
+}
+
+.circle:hover {
+  background-color: #9E9E9E;
+  box-shadow: 4px 4px 13px #bbbbbb;
+}
+
+.rotate {
+  text-align: center;
+  padding: 14px 0px 0px 4px;
+  -ms-transform: rotate(-10deg); /* IE 9 */
+  -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+  transform: rotate(-10deg);
+}
+
+.blocktext {
+  padding: 5px;
+  background-color: rgba(182,182,182, .7);
+  box-shadow: 4px 4px 13px #bbbbbb;
+}
+
+.deepred {
+  margin-top: 18px;
+  padding: 8px;
+  background-color: #D32F2F;
+  box-shadow: 4px 4px 13px #bbbbbb;
+}
